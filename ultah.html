@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Undangan Ulang Tahun</title>
+    <link rel="stylesheet" href="ultah.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="ultah.js" defer></script>
+</head>
+<body>
+    </div>
+    <nav class="navbar">
+        <div class="nav-brand">Ulang Tahun Bilqis Nazwa Azzahra</div>
+        <ul class="nav-links">
+            <li><a href="#details">Detail Acara</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#rsvp">Kehadiran</a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <img src="Home.png" alt="Image 1">
+        </div>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>Welcome in Birthday Party !!</h1>
+            <p class="event-date">Sabtu, 16 November 2024</p>
+            <a href="#details" class="cta-button">Lihat Detail Acara</a>
+        </div>
+    </header>
+    <main>
+        <section id="details" class="details-section">
+            <h2>Detail Acara</h2>
+            <div class="details-container">
+                <p><strong>Tanggal:</strong> Sabtu, 16 November 2024</p>
+                <p><strong>Waktu:</strong> 13:00 - Selesai </p>
+                <p><strong>Lokasi:</strong> Rumah Bilqis</p>
+                <div class="map">
+                    <iframe width="425" height="350"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=117.15758353471757%2C-0.4334167033427934%2C117.15963810682298%2C-0.4318664307299362&amp;layer=mapnik"
+                        style="border: 1px solid black"></iframe><br /><small><a
+                            href="https://www.openstreetmap.org/#map=19/-0.432642/117.158611">Lihat peta lebih
+                            besar</a></small>
+                </div>
+                <p><strong>Dress Code:</strong> Pink</p>
+            </div>
+        </section>
+
+        <section id="countdown" class="countdown-section">
+            <h2>Acara Akan Dimulai Dalam</h2>
+            <div id="countdown-timer"></div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>Galeri</h2>
+            <div class="gallery-container">
+                <img src="1.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="2.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="3.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="4.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="cantik.jpeg" alt="Foto 1" class="gallery-item">
+                <img src="lucu.jpeg" alt="Foto 2" class="gallery-item">
+                <img src="7.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="5.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="6.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="8.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="9.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="10.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="11.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="12.jpeg" alt="Foto 3" class="gallery-item">
+                <img src="13.jpeg" alt="Foto 3" class="gallery-item">
+
+            </div>
+        </section>
+
+        <section id="rsvp" class="rsvp-section">
+            <h2>Konfirmasi Kehadiran</h2>
+            <form id="rsvp-form" class="rsvp-form">
+                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                <textarea name="ucapan" cols="30" rows="4" placeholder="Ucapan"> </textarea>
+                <select name="Keterangan">
+                    <option value="" selected disabled hidden> Konfirmasi Kehadiran</option>
+                    <option value="1">Ya</option>
+                    <option value="2">Tidak Hadir</option>
+                    <option value="3">Tidak Tau</option>
+                </select>
+                <button type="submit" class="rsvp-button">Konfirmasi Kehadiran</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
